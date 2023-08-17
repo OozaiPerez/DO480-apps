@@ -4,3 +4,14 @@ bases:
   - ../../base/
 
 nameSuffix: -apac
+<<<<<<< HEAD
+=======
+
+images:
+  - name: mysql
+    newName: registry.redhat.io/rhel8/mysql-80
+    newTag: 1-152
+
+resources:
+  - route.yaml
+>>>>>>> 6dc465f7c50fc82fd8fb46fa85d8ed2d0c041baf
